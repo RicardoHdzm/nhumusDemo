@@ -1,0 +1,294 @@
+html, body {
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sand-serif;
+    scroll-behavior: smooth;
+  }
+
+div{
+	margin: 0!important;
+	padding: 0!important;
+}
+
+
+h5{
+	font-weight: 300;
+
+}
+
+h4{
+	font-weight: 300;
+}
+
+.navbar{
+	background-color: transparent;
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.navbar-brand:hover{
+	text-decoration: underline;
+	text-underline-offset: 8px;
+	text-decoration-thickness: 1px;
+}
+
+.nav-logo{
+	filter: invert(100%);
+	width: 70%;
+
+}
+
+.footer{
+	background-color: #9c8a80;
+	height: fit-content;
+	font-size: 14px;
+}
+
+.icon-size{
+  vertical-align:bottom;
+	font-size: 22px;
+}
+
+.home{
+	background-image: url("../img/10.png");
+	background-position: center;
+	background-size: cover;
+	height: fit-content;
+}
+
+.home-section{
+	margin-top: -1rem!important;
+}
+
+.home-about{
+	background-color: #c5c3b8;
+}
+
+.home-question{
+	background-color: #808180;
+}
+
+h4>a{
+	color: white;
+	opacity: .5;
+}
+
+h4>a:hover{
+	opacity: 1;
+	color: white;
+	text-decoration: none;
+}
+
+.question-btn{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 20px;
+	border-width: thin;
+	font-weight: 300;
+	height: fit-content;
+	opacity: .5;
+}
+
+.question-btn:hover{
+	color: white;
+	text-decoration: none;
+	opacity: 1!important;
+}
+
+.home-question>h1{
+	color: white;
+	font-weight: lighter;
+}
+
+.pdf-link{
+	color: white;
+}
+
+.pdf-link:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.overlay {
+	position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  opacity: .40;
+}
+
+.hometext{
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+.hometext>b{
+	font-weight: bold;
+}
+
+.hometext2{
+	font-size: 3.5rem;
+	font-weight: 300;
+}
+
+.hometext2>b{
+	font-weight: bold;
+}
+
+.nav-button{
+	border: solid;
+	border-color: white;
+	border-radius: 20px;
+	border-width: thin;
+	font-weight: 700;
+	height: fit-content;
+}
+
+.nav-button:hover{
+	background-color: white;
+	color: black!important;
+	border-color: white;
+	font-weight: 700;
+	height: fit-content;
+	text-decoration: none;
+}
+
+.img-invert{
+	width: 100px;
+	filter: invert(100%);
+}
+
+.button{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 20px;
+	border-width: thin;
+	font-weight: 300;
+	height: fit-content;
+	font-style: italic;
+}
+
+.button:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.img-gallery{
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  overflow: hidden;
+ }
+
+
+.img-mrg:hover .img-gallery {
+  opacity: .20;
+}
+
+.img-mrg{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+.text {
+  color: white;
+  font-size: medium;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  user-select: none;
+}
+
+
+.about-img{
+	width: 100%;
+}
+
+.gray{
+	color: #808380;
+}
+
+.sand{
+	color: #80755b
+
+}
+
+hr.sand{
+	border-top: solid;
+	border-top-width: 1px;
+	background-color: #808380;
+}
+
+.margin-left{
+	border-left: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+.link-w{
+	color: white;
+	opacity: .5;
+}
+
+.link-w:hover{
+	color: white;
+	text-decoration: none;
+	opacity: 1!important;
+}
+
+ .map-container{
+  overflow:hidden;
+  position:relative;
+  height: 0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  filter: grayscale(100%) brightness(1);
+}
+
+.img-footer{
+	width: 200px;
+	filter: invert(100%);
+}
+
+#topBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 35px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  outline: none; /* Remove outline */
+  border-color: transparent;
+  background-color: transparent; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  font-weight: bolder;
+  transition: 0.5s ease;
+  opacity: .5;
+
+}
+
+#topBtn:hover {
+  color: white;
+  opacity: 1;
+}
+
+.arrow-size{
+	font-size: 65px;
+	user-select: none;
+}
